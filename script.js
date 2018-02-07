@@ -1,4 +1,4 @@
-$(document).ready(function(){
+/*$(document).ready(function(){
     var first=$("#first");
     var activeListings=$("#activeListings");
     var pastSales=$("#pastSales");
@@ -9,6 +9,17 @@ $(document).ready(function(){
     var pastSalesButon=$(".past");
     var aboutButon=$(".ab");
     var searchButon=$(".sea");
+    
+    function fill(){
+        var introHeight=$("#intro").height();
+        var windowHeight=$(window).height();
+        var newHeight=windowHeight-introHeight;
+        var newheightString=newHeight.toString();
+        var divString="height: "+newheightString+"px"; 
+        $('<div>', { 
+            style: divString
+        }).appendTo('#intro');
+    }
     
     
     
@@ -21,7 +32,7 @@ $(document).ready(function(){
         pastSales.hide();
         about.hide();
         search.hide();
-    };
+    }
     
     function showAll() {
         activeListings.show();
@@ -55,16 +66,7 @@ $(document).ready(function(){
     });
     
     //RESIZE WINDOW
-    function fill(){
-        var introHeight=$("#intro").height();
-        var windowHeight=$(window).height();
-        var newHeight=windowHeight-introHeight;
-        var newheightString=newHeight.toString();
-        var divString="height: "+newheightString+"px"; 
-        $('<div>', { 
-            style: divString
-        }).appendTo('#intro');
-    }
+    
     fill();
     
     
@@ -100,4 +102,4 @@ $(document).ready(function(){
         }
         
     });*/
-});
+/*});*/
