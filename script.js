@@ -77,12 +77,12 @@ $(document).ready(function(){
         }
     $(window).bind('resize', function(e){
         var w = window.innerWidth;
-        if (w>768) {
+        //if (w>768) {
             if (window.RT) clearTimeout(window.RT);
             window.RT = setTimeout(function(){
                 this.location.reload(false); 
             }, 200);
-        }
+        //}
     });
     
 
