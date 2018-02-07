@@ -1,13 +1,10 @@
-/*#intro {
-    background-image: url("miguel%20house%20sale.JPG");
-}*/
-
+/*
+<style>
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+</style>
 * {
     font-family: 'Open Sans', sans-serif;
 }
-<style>
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-</style> 
 html {
     background-color: black;
     color: red;
@@ -85,4 +82,4 @@ button {
         font-size: 25px;
     }
     
-}
+}*/
