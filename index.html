@@ -1,119 +1,121 @@
 <!DOCTYPE HTML>
 <html>
-    <head>
-        <!--made by https://github.com/Willsteroo-->
-        <title>Miguel Bush</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="style.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-        <script type="text/javascript" src="script.js"></script>
-    </head>
-    <body>
-        <div class="container-fluid">
-            <a href="http://ironwood-prop.com" target="_blank"><img src="Ironwood%20logo%208.14-970-wide.png"  class="img-responsive center-block" id="ironwoodLogo"></a>
-            <p style="text-align: center; color: #0B223F;">San Diego, California</p>
+
+<head>
+    <!--made by https://github.com/Willsteroo-->
+    <title>Miguel Bush</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <a href="http://ironwood-prop.com" target="_blank"><img src="Ironwood%20logo%208.14-970-wide.png" class="img-responsive center-block" id="ironwoodLogo"></a>
+        <p style="text-align: center; color: #0B223F;">San Diego, California</p>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-1"></div>
+            <button type="button" class="btn btn-primary col-lg-2" id="activeListingsBtn">Active Listings</button>
+            <button type="button" class="btn btn-primary col-lg-2" id="pastSalesBtn">Past Sales</button>
+            <div class="col-lg-2"></div>
+            <button type="button" class="btn btn-primary col-lg-2" id="aboutBtn">About</button>
+            <button type="button" class="btn btn-primary col-lg-2" id="searchBtn">Search</button>
+            <div class="col-lg-1"></div>
         </div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-1" ></div>
-                <button type="button" class="btn btn-primary col-lg-2" id="activeListingsBtn">Active Listings</button>
-                <button type="button" class="btn btn-primary col-lg-2" id="pastSalesBtn">Past Sales</button>
-                <div class="col-lg-2"></div>
-                <button type="button" class="btn btn-primary col-lg-2" id="aboutBtn">About</button>
-                <button type="button" class="btn btn-primary col-lg-2" id="searchBtn">Search</button>
-                <div class="col-lg-1"></div>
+    </div>
+    <br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-4" id="profile">
+                <br>
+                <a href="https://www.sandicormls.com/profile/618705" target="_blank"><img src="Miguel.jpg" class="img-responsive center-block" style="min-width: 150px;"></a> <a href="https://www.sandicormls.com/profile/618705" target="_blank" style="color: white;"><h1>Miguel Bush</h1></a> <a href="https://www.sandicormls.com/profile/618705" target="_blank" style="color: white;"><h3>Realtor</h3></a>
+                <a href="https://www.facebook.com/miguel.bush1" target="_blank" class="fa fa-facebook"></a>
+                <a href="https://www.linkedin.com/in/miguel-bush-0534818/" target="_blank" class="fa fa-linkedin"></a>
+                <p>miguel@ironwood-prop.com</p>
+                <p>(619)-246-3605</p>
             </div>
-        </div>
-        <br>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-1"></div>
-                <div class="col-lg-4" id="profile">
-                    <br>
-                    <a href="https://www.sandicormls.com/profile/618705" target="_blank"><img src="Miguel.jpg" class="img-responsive center-block" style="min-width: 150px;"></a>
-                    <a href="https://www.sandicormls.com/profile/618705" target="_blank" style="color: white;"><h1>Miguel Bush</h1></a>
-                    <a href="https://www.sandicormls.com/profile/618705" target="_blank" style="color: white;"><h3>Realtor</h3></a>
-                    <a href="https://www.facebook.com/miguel.bush1" target="_blank" class="fa fa-facebook"></a>
-                    <a href="https://www.linkedin.com/in/miguel-bush-0534818/" target="_blank" class="fa fa-linkedin"></a>
-                    <p>miguel@ironwood-prop.com</p>
-                    <p>(619)-246-3605</p>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-5" id="content">
+                <div id="activeListings">
+                    <h1 style="text-align: center;">Active Listings</h1>
+                    <hr>
+                    <img src="170051113_00001.jpg" style="max-width: 200px;">
+                    <hr>
+                    <p>$635,000,000</p>
+                    <p>Ejido Galeana Baja. Mexico, #313824</p>
+                    <p>Calamajue, CA 99999</p>
+                    <p>Out Of Area</p>
+                    <p>MLS ID# 170051113</p>
+                    <p>Beds: 0</p>
+                    <p>Baths: 0</p>
+                    <p>Garage Capacity: 0</p>
+                    <p>0 sqft</p>
                 </div>
-                <div class="col-lg-1"></div>
-                <div class="col-lg-5" id="content">
-                    <div id="activeListings">
-                        <h1 style="text-align: center;">Active Listings</h1>
-                        <hr>
-                        <img src="170051113_00001.jpg" style="max-width: 200px;">
-                        <hr>
-                        <p>$635,000,000</p>
-                        <p>Ejido Galeana Baja. Mexico, #313824</p>
-                        <p>Calamajue, CA 99999</p>
-                        <p>Out Of Area</p>
-                        <p>MLS ID# 170051113</p>
-                        <p>Beds: 0</p>
-                        <p>Baths: 0</p>
-                        <p>Garage Capacity: 0</p>
-                        <p>0 sqft</p>
-                    </div>
-                    <div id="pastSales">
-                        <h1 style="text-align: center;">Past Sales</h1>
-                        <hr>
-                        <img src="170047746-3.JPG" style="max-width: 200px;">
-                        <hr>
-                        <p>$350,000</p>
-                        <p>376 Center Street, #342</p>
-                        <p>Chula Vista, CA 91910</p>
-                        <p>MLS ID# 170047746</p>
-                        <p>Closed</p>
-                        <p>Beds: 2</p>
-                        <p>Baths: 2/0/0</p>
-                        <p>Garage Capacity: 2</p>
-                        <p>1224 sqft</p>
-                        <p>$286/sqft</p>
-                        <hr>
-                        <img src="home3.JPG" style="max-width: 200px;">
-                        <hr>
-                        <p>$290,000</p>
-                        <p>4381 Oregon Street, #7</p>
-                        <p>San Diego, CA 92104</p>
-                        <p>North Park</p>
-                        <p>MLS ID# 170042846</p>
-                        <p>Closed</p>
-                        <p>Beds: 1</p>
-                        <p>Baths: 1/0/0</p>
-                        <p>Garage Capacity: 1</p>
-                        <p>624 sqft</p>
-                        <p>$465/sqft</p>
-                        <hr>
-                        <img src="home4.JPG" style="max-width: 200px;">
-                        <hr>
-                        <p>$500,000</p>
-                        <p>2825 N Ave</p>
-                        <p>National City, CA 91950</p>
-                        <p>MLS ID# 170008501</p>
-                        <p>Closed</p>
-                        <p>Beds: 4</p>
-                        <p>Baths: 2/0/0</p>
-                        <p>Garage Capacity: 10</p>
-                        <p>1980 sqft</p>
-                        <p>$253/sqft</p>
-                    </div>
+                <div id="pastSales">
+                    <h1 style="text-align: center;">Past Sales</h1>
+                    <hr>
+                    <img src="170047746-3.JPG" style="max-width: 200px;">
+                    <hr>
+                    <p>$350,000</p>
+                    <p>376 Center Street, #342</p>
+                    <p>Chula Vista, CA 91910</p>
+                    <p>MLS ID# 170047746</p>
+                    <p>Closed</p>
+                    <p>Beds: 2</p>
+                    <p>Baths: 2/0/0</p>
+                    <p>Garage Capacity: 2</p>
+                    <p>1224 sqft</p>
+                    <p>$286/sqft</p>
+                    <hr>
+                    <img src="home3.JPG" style="max-width: 200px;">
+                    <hr>
+                    <p>$290,000</p>
+                    <p>4381 Oregon Street, #7</p>
+                    <p>San Diego, CA 92104</p>
+                    <p>North Park</p>
+                    <p>MLS ID# 170042846</p>
+                    <p>Closed</p>
+                    <p>Beds: 1</p>
+                    <p>Baths: 1/0/0</p>
+                    <p>Garage Capacity: 1</p>
+                    <p>624 sqft</p>
+                    <p>$465/sqft</p>
+                    <hr>
+                    <img src="home4.JPG" style="max-width: 200px;">
+                    <hr>
+                    <p>$500,000</p>
+                    <p>2825 N Ave</p>
+                    <p>National City, CA 91950</p>
+                    <p>MLS ID# 170008501</p>
+                    <p>Closed</p>
+                    <p>Beds: 4</p>
+                    <p>Baths: 2/0/0</p>
+                    <p>Garage Capacity: 10</p>
+                    <p>1980 sqft</p>
+                    <p>$253/sqft</p>
+                </div>
                 <div id="about">
                     <h1 style="text-align: center;">About</h1>
-                    <h4>Miguel Bush has been representing buyers and sellers in real estate for 35 years, 11 of those in San Diego. A Centurion at Century 21 Real Estate, LLC, now with Ironwood Properties, his extensive experience and commitment to client service are qualities his clients can depend on. Clients can count on Miguel for his honesty, patience, professionalism, negotiating skills, and relentless pursuit to reach your goals. His motto, “U 1st” represents a commitment to his clients that you will always be informed with the most recent information in all matters. Experience the difference when your agent cares about you and puts U 1st.</h4>
-                </div>
+                    <h4>Miguel Bush has been representing buyers and sellers in real estate for 35 years, 11 of those in San Diego. A Centurion at Century 21 Real Estate, LLC, now with Ironwood Properties, his extensive experience and commitment to client service are qualities his clients can depend on. Clients can count on Miguel for his honesty, patience, professionalism, negotiating skills, and relentless pursuit to reach your goals. His motto, “U 1st” represents a commitment to his clients that you will always be informed with the most recent information in all matters. Experience the difference when your agent cares about you and puts U 1st.</h4> </div>
                 <div id="search">
                     <h1>Find what you are looking for...</h1>
-                    <a href="http://ironwood-prop.com/recip.html#!/wps/-/noframe~true/recip/31319/idx.search?" target="_blank"><button type="button" class="btn btn-primary" style="width: 200px;">Click here to Search...</button></a>
+                    <a href="http://ironwood-prop.com/recip.html#!/wps/-/noframe~true/recip/31319/idx.search?" target="_blank">
+                        <button type="button" class="btn btn-primary" style="width: 200px;">Click here to Search...</button>
+                    </a>
                 </div>
             </div>
             <div class="col-lg-1"></div>
         </div>
-        </div>
-    </body>
+    </div>
+</body>
+
 </html>
